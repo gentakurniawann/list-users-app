@@ -1,0 +1,22 @@
+@import "../../scss/colorVariables";
+
+.login-page {
+  .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .card {
+    border-radius: 24px;
+    border: none;
+    padding: 32px;
+    box-shadow: 2px 4px 15px 0px rgba(245, 245, 245, 0.8);
+    .login-img {
+      img {
+        max-width: 440px;
+        @media screen and (max-width: 767px) {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import "../../scss/colorVariables";
+
+ol {
+  color: $dark-grey;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  .breadcrumb-item {
+    font-size: 14px;
+  }
+  .active {
+    font-weight: 600;
+  }
+
+  a {
+    color: $dark-grey;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

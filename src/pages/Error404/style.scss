@@ -1,0 +1,23 @@
+@import "../../scss/colorVariables";
+
+.error-404 {
+  .container {
+    padding: 6vh;
+  }
+  .card {
+    min-height: 576px;
+    height: 100vh;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 2px 4px 15px 0px rgba(245, 245, 245, 0.8);
+    img {
+      margin-bottom: 4px;
+      width: 100%;
+    }
+
+    .btn {
+      height: 40px;
+      width: 158px;
+    }
+  }
+}

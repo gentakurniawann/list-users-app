@@ -1,0 +1,23 @@
+@import "../../../scss/colorVariables";
+.width-60 {
+  max-width: 60px;
+}
+.width-120 {
+  min-width: 120px;
+}
+td {
+  img {
+    border-radius: 50%;
+  }
+  .btn-view-detail {
+    min-width: 120px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: $blue;
+    color: $white;
+    font-size: 14px;
+    &:hover {
+      background-color: $indigo;
+    }
+  }
+}
