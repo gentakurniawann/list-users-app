@@ -1,5 +1,10 @@
 # Project Description
 This website project was built using react Js, SASS as a CSS preprocessor, and react-bootstrap as a UI Library. This website consists of 4 pages. login page, user list page, user detail page, and error404 page. error404 page automatically appears when you enter the wrong path.
+
+## Email and password for login
+E-mail : eve.holt@reqres.in \
+password : citysalika
+
 # Deploy Link
 this project was deployed at https://listusers-app.netlify.app/
 # Getting Started with Create React App
